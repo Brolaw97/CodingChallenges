@@ -4,7 +4,7 @@ public class SumOfDigitsChallengeJuneSeventh {
 
 	public static void main(String[] args) {
 
-		System.out.println("Inputs:");
+		System.out.println("Inputs:\n");
 
 		int numOfStrings = 3;
 
@@ -15,7 +15,7 @@ public class SumOfDigitsChallengeJuneSeventh {
 		System.out.println(inputStrings[0]);
 		System.out.println(inputStrings[1]);
 		System.out.println(inputStrings[2]);
-		System.out.println("Outputs:");
+		System.out.println("\nOutputs:\n");
 
 		digitSum(numOfStrings, inputStrings);
 

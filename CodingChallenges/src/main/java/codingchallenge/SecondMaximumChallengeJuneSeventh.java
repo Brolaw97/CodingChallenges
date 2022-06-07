@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class SecondMaximumChallengeJuneSeventh {
 
 	public static void main(String[] args) {
-		System.out.println("Inputs:");
+		System.out.println("Inputs:\n");
 
 		int numOfTestCases = 3;
 
@@ -16,7 +16,7 @@ public class SecondMaximumChallengeJuneSeventh {
 		System.out.println(numberInputs[0][0] + " " + numberInputs[0][1] + " " + numberInputs[0][2]);
 		System.out.println(numberInputs[1][0] + " " + numberInputs[1][1] + " " + numberInputs[1][2]);
 		System.out.println(numberInputs[2][0] + " " + numberInputs[2][1] + " " + numberInputs[2][2]);
-		System.out.println("\nOutputs:");
+		System.out.println("\nOutputs:\n");
 
 		findMiddleNumber(numOfTestCases, numberInputs);
 	}
